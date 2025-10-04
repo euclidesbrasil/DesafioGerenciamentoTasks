@@ -56,3 +56,14 @@ Perguntas ao PO:
 - Está correto mudar uma task de projeto?
 - Um usuário terá acesso a qualquer task ou projeto?
 - A criação de tarefas/projetos, deveria ser atrelado ao usuário logado, ou mantenho a questão de identificar qual o usuário?
+
+##  ( Fase 3: Final )
+Melhorias:
+- Incluir testes de integração
+- Na listagem de Tasks, incluir comentários e histórico
+- Incluir Controller de histórico
+- Usar conceitos de base desnormalizada, como no caso da task com o nome do projeto sendo persistido na mesma tabela, para evitar join;
+- Adoção de branchs para desenvolvimento, usando o conceito de Git flow.
+- Possibilidade de trabalhar com integração continua
+- Usar os testes unitários e de integração para validação, na pipeline.
+- Adoção de Pull Request (PR) para merge de branchs.
