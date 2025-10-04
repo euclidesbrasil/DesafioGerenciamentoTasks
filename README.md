@@ -32,7 +32,7 @@ No projeto **ArquiteturaDesafio.General.Api**, abra o arquivo `appsettings.json`
 
 Basta executar o projeto para iniciar a API. Na primeira execução, o banco de dados será criado automaticamente e os dados iniciais serão carregados. Poderá ser usado via Swagger;
 
-Caso queira rodar via docker,inicio o docker destop, e no visual studio abra o "PowerShell do Desenvolvedor" referente a raiz da solução e execute o comando:
+Caso queira rodar via docker,inicie o docker desktop, e no visual studio abra o "PowerShell do Desenvolvedor" referente a raiz da solução e execute o comando:
 ```json
 docker-compose up --build -d
 ```
