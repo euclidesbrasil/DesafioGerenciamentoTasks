@@ -1,4 +1,4 @@
-# API Geral - Gestão de Crédito e Débitos
+# API Geral - Gestão de Tarefas e Projetos
 
 ## 📌 Descrição
 
@@ -11,7 +11,7 @@ Esta API fornece recursos para gerenciar autenticação, tarefas, projetos, hist
 
 ## 🗉 Pré-requisitos
 
-Clone este projeto usando a URL: [https://github.com/euclidesbrasil/DesafioGerenciamentoTask.git](https://github.com/euclidesbrasil/DesafioGerenciamentoTask.git)
+Clone este projeto usando a URL: [https://github.com/euclidesbrasil/DesafioGerenciamentoTasks](https://github.com/euclidesbrasil/DesafioGerenciamentoTasks)
 
 Antes de baixar o projeto, certifique-se de ter instalado:
 
@@ -50,9 +50,9 @@ Para utilizar os endpoints, é necessário obter um token de autenticação. Uti
 - **Usuário:** admin ou manager , para simular perfis diferentes
 - **Senha:** s3nh@
 
-##  Configuração Antes da Execução ( Fase 2: Refinamento )
-Para proxima fase:
-- Gerar o Controller de TaskHistory, pois hj não está sendo listado.
-- Incluir listagem de histórico e mensagens na recueperação de Tasks
-- Incluir testes de integração
-  
+##  ( Fase 2: Refinamento )
+Perguntas ao PO:
+- Posso criar uma Task inicialmente sem o status padrão que defini? Criar como Doing ou Done?
+- Está correto mudar uma task de projeto?
+- Um usuário terá acesso a qualquer task ou projeto?
+- A criação de tarefas/projetos, deveria ser atrelado ao usuário logado, ou mantenho a questão de identificar qual o usuário?
